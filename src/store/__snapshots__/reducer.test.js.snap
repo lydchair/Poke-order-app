@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer  should handle ADD_INGREDIENT 1`] = `
+Object {
+  "ingredients": Object {
+    "salad": 0,
+    "salmon": 0,
+    "tofu": 0,
+    "tuna": 0,
+    "undefined": NaN,
+  },
+  "totalPrice": NaN,
+}
+`;
+
+exports[`reducer  should handle UPDATE_NAME 1`] = `
+Object {
+  "ingredients": Object {
+    "salad": 0,
+    "salmon": 0,
+    "tofu": 0,
+    "tuna": 0,
+    "undefined": NaN,
+  },
+  "totalPrice": NaN,
+}
+`;
+
+exports[`reducer  should return initial state 1`] = `
+Object {
+  "ingredients": Object {
+    "salad": 0,
+    "salmon": 0,
+    "tofu": 0,
+    "tuna": 0,
+  },
+  "totalPrice": 7.5,
+}
+`;
