@@ -9,7 +9,20 @@
     margin: auto;
     padding: 10px 0;
 }
-
+.ShowNumber{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 48px;
+    height: 26px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #666;
+    border: 1px solid #CCC;
+    outline: 0;
+    background: #FFF;
+}
 .OrderButton {
     background-color: rgb(230, 230, 230);
     outline: none;
