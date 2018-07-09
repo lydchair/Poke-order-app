@@ -14,16 +14,17 @@ const poke = ( props ) => {
         .reduce((arr, el) => {
             return arr.concat(el)
         }, []);
-    if (transformedIngredients.length === 0) {
-        transformedIngredients = <p>Add what you like in the bowl</p>;
-    }
-    return (
-        <div className={classes.Poke}>
-            <PokeIngredient type="bowl" />
-            {transformedIngredients}
-           
-        </div>
-    );
+        if (transformedIngredients.length === 0) {
+            transformedIngredients = <p className={classes.Add}>Put something in your bowl
+            </p>;
+        }
+        return (
+            <div className={classes.Poke}>
+                <PokeIngredient type="bowl" />
+                {transformedIngredients}
+               
+            </div>
+        );
 };
 
 export default poke;

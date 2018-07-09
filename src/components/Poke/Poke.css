@@ -1,12 +1,21 @@
 .Poke {
-    width: 100%;
+    content: url(https://static1.squarespace.com/static/58e615985016e1877f64dc7c/t/592ebf031b10e3f517523190/1496235794681/?format=1000w);
+    background-color: #19483f;
+    
+    height: auto;
     margin: auto;
-    height: 250px;
     overflow: scroll;
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+.Add{
+    color:salmon;
+   
+}
+
+
 
 @media (min-width: 500px) and (min-height: 400px) {
     .Poke {
@@ -24,7 +33,7 @@
 
 @media (min-width: 1000px) and (min-height: 700px) {
     .Poke {
-        width: 700px;
-        height: 600px;
+        width: 400px;
+        height: 400px;
     }
 }

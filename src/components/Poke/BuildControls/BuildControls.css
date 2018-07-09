@@ -1,13 +1,17 @@
 .BuildControls {
     color: #19483f;
     width: 100%;
-    background-color: #ecf3ed;
+    background-image: url(https://static1.squarespace.com/static/58e615985016e1877f64dc7c/58eba7171e5b6c098ba57474/59288ddcbf629a04aaffdfad/1498811593756/MALOA_collage_02_web.jpg?format=2500w);
     display: flex;
     flex-flow: column;
     align-items: center;
     box-shadow: 0 2px 1px #ccc;
     margin: auto;
     padding: 10px 0;
+}
+
+.Current{
+    color:rgb(18, 14, 236);
 }
 .ShowNumber{
     float: left;

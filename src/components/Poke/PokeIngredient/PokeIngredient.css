@@ -1,12 +1,12 @@
 
 
 .Bowl {
- 
+ display: none;
     background: url(https://static1.squarespace.com/static/58e615985016e1877f64dc7c/t/592ebf031b10e3f517523190/1496235794681/?format=1000w);
-    background-size: 400px 400px;
+    background-size: 625px 741px;
     padding: 8px;
-    height: 400px;
-    width: 400px;
+   height: 625px;
+    width: 80%;
     box-sizing: border-box;
   
 }
