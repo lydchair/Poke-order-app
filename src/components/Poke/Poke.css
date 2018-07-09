@@ -2,7 +2,8 @@
     content: url(https://static1.squarespace.com/static/58e615985016e1877f64dc7c/t/592ebf031b10e3f517523190/1496235794681/?format=1000w);
     background-color: #19483f;
     
-    height: auto;
+    height: 440px;
+    width: 440px;
     margin: auto;
     overflow: scroll;
     text-align: center;
@@ -17,23 +18,24 @@
 
 
 
-@media (min-width: 500px) and (min-height: 400px) {
-    .Poke {
+
+@media only screen and (max-width: 320px) {
+    /* Small screen, non-retina */
+    .Poke {content: url(https://static1.squarespace.com/static/58e615985016e1877f64dc7c/t/592ebf031b10e3f517523190/1496235794681/?format=1000w);
         width: 350px;
         height: 300px;
     }
 }
 
-@media (min-width: 500px) and (min-height: 401px) {
-    .Poke {
-        width: 450px;
-        height: 400px;
+@media only screen and (min-width: 321px) and (max-width: 538px) {
+    /* Medium screen, non-retina */
+    .Poke {content: url(https://static1.squarespace.com/static/58e615985016e1877f64dc7c/t/592ebf031b10e3f517523190/1496235794681/?format=1000w);
     }
 }
 
-@media (min-width: 1000px) and (min-height: 700px) {
-    .Poke {
-        width: 400px;
-        height: 400px;
+@media
+only screen and (min-resolution: 2dppx) and (min-width: 539px) {
+    /* Large screen, retina */
+    .Poke {content: url(https://static1.squarespace.com/static/58e615985016e1877f64dc7c/t/592ebf031b10e3f517523190/1496235794681/?format=1000w);
     }
 }
